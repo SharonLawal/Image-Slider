@@ -22,32 +22,16 @@ body{
 }
 
 .btnLeft{
-    position: absolute;
-    top: 50%;
-    left: -20px;
-    background-color: plum;
-    color: white;
-    transform: translate(-50% -50%);
-    border: 0.2rem solid rgb(102, 76, 102);
-    font-size: 1.5rem;
-    padding: 15px;
-    cursor: pointer;
+    left: 20px;
 }
 
 .btnRight{
-    position: absolute;
-    top: 50%;
-    right: -20px;
-    background-color: plum;
-    color: white;
-    transform: translate(-50% -50%);
-    border: 0.2rem solid rgb(102, 76, 102);
-    font-size: 1.5rem;
-    padding: 15px;
-    cursor: pointer;
+    right: 20px;
 }
 
 .btnLeft, .btnRight {
+    position: absolute;
+    top: 50%;
     display: inline-block;
     padding: 10px 20px;
     background-color: #894b4b;
@@ -55,6 +39,8 @@ body{
     cursor: pointer;
     font-size: 20px;
     transition: background-color 0.3s;
+    color: white;
+    transform: translate(-50% -50%);
 }
 
 .btnLeft:hover, .btnRight:hover {
