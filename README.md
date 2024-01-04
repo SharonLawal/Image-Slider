@@ -5,7 +5,9 @@
 **Features**
 
 Elegant design with left and right navigation buttons.
+
 Responsive layout for various screen sizes.
+
 Easy integration into web projects.
 
 **License**
